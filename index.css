@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: #112;
+}
+button {
+    background: #0088ff;
+    color: #ffffff;
+    border: none;
+}
+button:hover {
+    background: #0077ff;
+}
+iframe {
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #aaa;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    color: #0088ff;
+}
+.btn-a {
+    background: #0088ff;
+    padding: 20px 40px;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 10px;
+}
+.page {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.wel {
+    background:  #556 url(wel.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 1cm;
+    padding: 30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: solid 1px #aaa;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+.wel h1 {
+    font-size: 52px;
+    line-height: 60px;
+}
+.wel button {
+    padding: 15px 25px;
+    margin: 20px;
+    cursor: pointer;
+}
+.box {
+    padding: 30px;
+    border-bottom: solid 1px #aaaaaa;
+    background: #fff;
+}
+.f-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #eee;
+    overflow: auto;
+}
+.f-box p {
+    margin: 20px 0;
+}
+.f-box .f-header {
+    display: flex;
+}
+.f-box .f-header .s {
+    flex-grow: 3;
+}
+
+.f-box .f-header .icon-c {
+    min-height: 30px;
+    min-width: 30px;
+    background: black;
+}
+.f-box .f-body {
+    flex-grow: 3;
+}
+.f-box .form-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.f-box .form-cont .input-box {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.f-box .form-cont .input-box label {
+    margin: 5px 0;
+    opacity: .8;
+}
+.f-box  .input-box input[type="submit"] {
+    padding: 10px;
+    min-width: 300px;
+    background-color: #0099ff;
+    color: #ffffff;
+    border: none;
+}
+.f-box  .checkbox  {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.f-box  .checkbox label{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-box  .checkbox input[type="checkbox"]  {
+    height: 20px;
+    width: 20px;
+}
+.f-box  .input-box input[type="submit"]:hover {
+    padding: 10px;
+    min-width: 300px;
+    background-color: #0088ff;
+    color: #ffffff;
+    border: none;
+}
+.f-box .form-cont .input-box input {
+    padding: 10px;
+    min-width: 300px;
+}
+.f-box .submit-cont {
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-box .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.hid {
+    display: none;
+}
+
+
+/*  */
+.gal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.gal .card-1 {
+    border: solid 1px #aaaaaa;
+    width: fit-content;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #000000a0;
+    background: #fff;
+}
+.gal .card-1 .img-cont img{
+    width: 300px;
+}
+.gal .card-1 .description{
+    text-align: center;
+    padding: 5px;
+}
+.cd-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cd-cont .card-2 {
+    display: flex;
+    min-width: 350px;
+    flex-direction: row;
+    margin: 30px 20px;
+    align-items: center;
+    background: #fff;
+    border: solid 1px #ddd;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.cd-cont .card-2 .img-cont img {
+    width: 120px;
+    margin-bottom: -4px;
+}
+.cd-cont .card-2 .cd-details span,
+.cd-cont .card-2 .cd-details button{
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.cd-cont .card-2 .cd-details button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.cd-cont .card-2 .cd-details .cd-d-name{
+    font-size: 24px;
+}
+.img-viewer {
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    display: none;
+}
+.footer {
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    background: #334;
+    font-size: 20px;
+    color: #fff;
+}
+.bg-a {
+    
+    background: #eef;
+}
+::-webkit-scrollbar {
+  border-radius: 7px;
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #111122; 
+}
+::-webkit-scrollbar-thumb {
+  background: #555566; 
+  border-radius: 7px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #889; 
+}
+
+.icon {
+    background: #a7a5a57d;
+    /* box-shadow: 0 0 5px black; */
+    height: 40px;
+    width: 50px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    PADDING: 0 5PX;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+    overflow: hidden;
+    z-index: 10;
+}
+.icon span{
+    display: block;
+    position: relative;
+    height: 4px;
+    width: 30px;
+    border-radius: 10px;
+    transition: .5s;
+    background: black;
+} 
+.icon span:nth-child(1) {
+    width: 30px;
+    /* transform: rotate(0deg); */
+    /* transform: rotate(45deg); */
+    transform: translateY(4px) rotate(45deg);;
+    left:initial;
+}
+.icon span:nth-child(2) {
+    width: 30px;
+    transform: translateX(100px);
+    left:initial;
+}
+.icon span:nth-child(3) {
+    transform: translateY(-4px)
+    rotate(675deg);
+    /* transform:  rotate(675deg); */
+    width: 30px;
+    left:initial;
+}
